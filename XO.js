@@ -1,6 +1,6 @@
 function xo (str) {
 
-if (str.split('o').length-1 !== str.split('x').length-1) {
+if (str.split('o').length !== str.split('x').length) {
   return false;
 } else {
   return true;
